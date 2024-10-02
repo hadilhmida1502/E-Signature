@@ -1,0 +1,1 @@
+import React from"f:\\node_modules\\react\\index.js";export default function Heading({subtitle,title}){return React.createElement(React.Fragment,null,React.createElement("div",{id:"heading"},React.createElement("h3",null,subtitle," "),React.createElement("h1",null,title," ")))}

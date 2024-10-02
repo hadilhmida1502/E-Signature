@@ -1,0 +1,139 @@
+.main-table{
+    background-color: rgb(234, 248, 246);
+    width: 100%;
+    border: 1rem;
+    border: 1px solid #ccc;
+}
+.main-table .container input {
+    border-radius: 0.2rem;
+    display: block;
+    border: none;
+    height: 2.5rem;
+    width: 23%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    font-size: small;
+    color: gray;
+    transition: all 0.1s ease-in-out;
+}
+.main-table .container input:focus {
+    outline: none;
+    border: none;
+}
+.main-table .container input:hover {
+    outline: 0.5px solid #4dd6b6;
+    box-shadow: 2px 2px 9px -2px #4dd6b6;
+}
+.styled-title {
+    letter-spacing: 4px;
+    font-size: 58px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #4dd6b6;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; /* Bold style */
+}
+.styled-title {
+    margin-top: 5px; 
+}
+.styled-title:hover {
+    color: #333;
+}
+.styled-title.bold {
+    font-weight: bold;
+}
+.styled-title.fancy {
+    font-family: "Georgia", serif;
+}
+.styled-title.bg {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*************/
+
+.styled-title1 {
+    letter-spacing: 4px;
+    font-size: 58px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; /* Bold style */
+    display: block;
+    width: 33.5%;
+    margin: auto;
+}
+.styled-title1 {
+    margin-bottom: 5px;
+}
+.styled-title1:hover {
+    color: #4dd6b6;
+}
+.styled-title1.bold {
+    font-weight: bold;
+}
+.styled-title1.fancy {
+    font-family: "Georgia", serif;
+}
+.styled-title1.bg {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*************/
+
+header{
+    background-color: rgb(234, 248, 246);
+    margin: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px; /*pour la couleur transparante*/
+    z-index: 100000;
+}
+header.sticky{
+    padding: 0.5px 100px;
+    background: #4dd6b6;
+    margin-left: 0;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4dd6b6;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky .logo, header.sticky ul li a{
+    color: #ffffff;
+}
